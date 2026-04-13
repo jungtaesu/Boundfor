@@ -40,7 +40,7 @@ export default function Editor() {
         <DynamicCanvas />
 
         <div className="mt-6 w-full max-w-2xl bg-gray-800 text-green-400 p-4 rounded-lg font-mono text-sm overflow-hidden whitespace-pre-wrap">
-          <span className="text-gray-400 block mb-2">// 현재 Canvas의 객체 상태 (Zustand Store)</span>
+          <span className="text-gray-400 block mb-2">{"// 현재 Canvas의 객체 상태 (Zustand Store)"}</span>
           {JSON.stringify(items, null, 2)}
         </div>
 
