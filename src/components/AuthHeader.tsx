@@ -10,7 +10,7 @@ export default function AuthHeader() {
 
   return (
     <div className="bg-gray-900 text-white p-4 flex justify-between items-center shadow-lg w-full sticky top-0 z-50">
-      <div className="font-bold text-xl tracking-tight">굿즈 메이커 Studio</div>
+      <div className="font-bold text-xl tracking-tight">테스트</div>
       
       <div>
         {session && session.user ? (

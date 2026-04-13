@@ -33,7 +33,7 @@ export default function Editor() {
       
       <div className={`transition-all duration-300 w-full flex flex-col items-center ${isBlurred ? 'opacity-30 pointer-events-none' : ''}`}>
         <div className="text-center space-y-2 mb-6">
-          <h1 className="text-3xl font-extrabold text-gray-900">굿즈 디자인 에디터 🎨</h1>
+          <h1 className="text-3xl font-extrabold text-gray-900">디자인 에디터 🎨</h1>
           <p className="text-gray-500">도형과 글자를 마음껏 드래그해보세요!</p>
         </div>
         

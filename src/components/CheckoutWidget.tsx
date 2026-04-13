@@ -57,7 +57,7 @@ export default function CheckoutWidget() {
   return (
     <div className="w-full max-w-2xl bg-white p-6 rounded-lg shadow-xl mt-8 mb-16 border border-gray-200">
       <div className="border-b pb-4 mb-4">
-        <h2 className="text-xl font-extrabold text-gray-800">디자인 결제하기 💸</h2>
+        <h2 className="text-xl font-extrabold text-gray-800">결제하기 💸</h2>
         <p className="text-gray-500 text-sm mt-1">완성된 디자인(레이어 {items.length}개)을 실물로 받아보세요.</p>
       </div>
 
